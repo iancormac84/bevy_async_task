@@ -19,6 +19,7 @@ tokio = { version = "1.38.0", default-features = false, features = ["sync"] }
 bevy = { git = "https://github.com/bevyengine/bevy.git", default-features = false, features = [
   "multi_threaded",
 ] }
+cfg-if = "1.0.0"
 async-std = "1.12.0"
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
