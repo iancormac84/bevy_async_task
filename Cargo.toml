@@ -74,7 +74,7 @@ clippy.wildcard_dependencies = "warn"
 
 [dependencies]
 tokio = { version = "1.41.1", default-features = false, features = ["sync"] }
-bevy = { version = "0.15.0", default-features = false, features = [
+bevy = { git = "https://github.com/bevyengine/bevy.git", default-features = false, features = [
   "multi_threaded",
 ] }
 async-std = "1.13.0"
